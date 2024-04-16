@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+.flex-container {
+    height: 100%;
+    display: flex;
+}
+
+.item {
+    width: 800px;
+    height: 200px;
+    margin-bottom: 1rem;
+    background-color: blueviolet;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
