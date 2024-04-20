@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Hello Extension",
   "version": "1.0",
-  "description": "Add(h1)after h1 element",
+  "description": "Add 💯 after h1 element",
 
   "icons": {
     "16": "images/icon-16.png",
@@ -13,9 +13,9 @@
 
   "content_scripts": [
     {
-      "js": ["scripts/content.js"],
+      "js": ["scripts/lib/jquery.min.js","scripts/content.js"],
       "matches": [
-        "<all_urls>"
+        "https://htmlcheatsheet.com/*"
       ]
     }
   ],
